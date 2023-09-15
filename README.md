@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# App-Correntina
 
-## Getting Started
+El proyecto *App-Correntina* es una iniciativa para mejorar la página de noticias de Corrientes. Su objetivo principal es ofrecer un servicio de calidad a la comunidad, ya que el enfoque actual de los medios es meramente criticar a la provincia, sin considerar todas las mejoras que la población correntina puede realizar para mejorar la vida en la provincia.
 
-First, run the development server:
+El impacto de *App-Correntina* va más allá de una mera plataforma de noticias, nos centramos en la promoción de iniciativas correntinas para mejorar la vida en la provincia. Invitamos a los desarrolladores de Corrientes a que se unan a este proyecto y aporten al crecimiento de nuestra querida provincia.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Pre-requisitos
+
+Para comenzar, debes tener instalado Node.js y npm. Si aún no los tienes configurados, puedes descargarlos [aquí](https://nodejs.org/es/download/).
+
+## Instalación y Configuración
+
+Para configurar y ejecutar esta aplicación en tu entorno local, sigue los siguientes pasos:
+
+1. Clona el repositorio en tu máquina local.
+
+2. Navega hasta el directorio del proyecto.
+
+3. Instala las dependencias del proyecto usando `npm install` o `yarn`.
+
+```json
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dependencias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este proyecto utiliza las siguientes dependencias:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- React y ReactDOM
+- @types/node
+- @types/react
+- @types/react-dom
+- tailwindcss
+- autoprefixer
+- firebase
+- lucide-react
+- next-auth
+- typescript
 
-## Learn More
+## Ejecución
 
-To learn more about Next.js, take a look at the following resources:
+Para ejecutar la aplicación en modo desarrollo, usa:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para construir la aplicación para producción, usa:
 
-## Deploy on Vercel
+```json
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para iniciar la aplicación en modo producción, usa:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```json
+npm start
+```
+
+Para verificar la calidad del código, usa:
+
+```json
+npm run lint
+```
+
+## Contribuir
+
+Si eres desarrollador de Corrientes o simplemente quieres contribuir a este proyecto, estás más que bienvenido. Siente libre de realizar un 'fork' del proyecto y enviar 'pull requests'. Si tienes alguna pregunta o sugerencia, abre un 'issue' y lo discutiremos juntos.
+
+Gracias por tu interés en *App-Correntina*, juntos podemos marcar la diferencia.
