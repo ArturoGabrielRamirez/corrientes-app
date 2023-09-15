@@ -3,7 +3,9 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                hostname: "votacion.tecnicarcorrientes.net"
+                protocol: "https",
+                hostname: "votacion.tecnicarcorrientes.net",
+                port: ""
             }
         ]
     }
