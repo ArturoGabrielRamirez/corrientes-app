@@ -19,12 +19,15 @@ export default function RootLayout({
   return (
     <html lang="es-AR">
       <body className={inter.className}>
-        <main>
-          <Providers>
-            <AppBar />
+        <Providers>
+          <AppBar />
+          <main>
             {children}
-          </Providers>
-        </main >
+          </main >
+          <footer>
+            <p className='bg-slate-900 p-4 flex justify-center'>Copyright 2023-Arturo Gabriel Ramirez</p>
+          </footer>
+        </Providers>
       </body>
     </html>
   )
